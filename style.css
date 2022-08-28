@@ -190,8 +190,22 @@ ul{
         width:60%;
         
     }
+    .main-container{
+        padding-left: 0;
+    }
+    .middle-section{
+        flex-direction: column;
+        gap:5px;
+        overflow: hidden;
+    }
+    .middle-section .about{
+        width: 100%;
+    }
     .social-icons{
-        display: none;
+        width: 100%;
+        display: flex;
+        gap:10px;
+        justify-content: space-between;
     }
     
 
@@ -202,7 +216,7 @@ ul{
     .text-md {
         font-size: 0.8rem !important; 
         font-weight: 200;
-        display: none;
+        /* display: none; */
     }
     .dropdown{
         /* top:80px;
@@ -214,6 +228,10 @@ ul{
         font-size: 1rem;
         
     }
+    .toggle-active{
+    
+    
+    }
 }
 
 
@@ -223,9 +241,9 @@ ul{
     top:0;
     left:0;
     width: 100%;
-    height: 100%;
+    height: 100vh;
     object-fit: cover;
     opacity: 0.7;
-    /* z-index: -1; */
+   
 
 }
