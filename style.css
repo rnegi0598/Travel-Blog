@@ -5,9 +5,6 @@
     
     
 }
-body{
-    /* position: relative; */
-}
 
 a{
     text-decoration: none;
@@ -26,9 +23,9 @@ a{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-
-    /* overflow: hidden; */
+    transition: 0.5s ;
 }
+
 /* header of main page */
 .header{
     z-index: 22;
@@ -136,23 +133,31 @@ a{
 /* on toggle being active */
 .head-c-active{
     width:80%;
+    background:rgba(0,0,0,1);
+    
 }
 
 ul{
     list-style: none;
 }
 .dropdown{
+    /* transition: right 1s linear; */
     position: absolute;
     top: 0;
     right:0;
     width: 20%;
     height: 100%;
-    background-color: white;
+    /* background-color: white; */
     font-size: 1.5rem;
     font-weight: 500;
     color: black;
     text-align: center;
     display: none;
+    
+    background: rgba(255,255,255,0.5);
+    
+    
+    
 
 }
 .dropdown ul{
@@ -162,6 +167,7 @@ ul{
 .dropdown li{
     padding: 10px 0;
     cursor: pointer;
+    
 
     
 }
@@ -183,6 +189,9 @@ ul{
 
 .toggle-active{
     display: block;
+   
+    transition-delay: 1.5s;
+    transition-property: display;
 
 
 }
