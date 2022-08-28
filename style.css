@@ -171,21 +171,7 @@ ul{
 
     
 }
-@media all and ( max-width:500px){
-    .head-container{
-        /* width: 100%; */
-    }
-    
-    .dropdown{
-        /* top:80px;
-        width: 80%;
-        height: 100vh;
-        font-size: 1rem;
-        background-color: white; */
-        font-size: 1rem;
-        
-    }
-}
+
 
 .toggle-active{
     display: block;
@@ -194,6 +180,40 @@ ul{
     transition-property: display;
 
 
+}
+
+
+
+
+@media all and ( max-width:500px){
+    .head-c-active{
+        width:60%;
+        
+    }
+    .social-icons{
+        display: none;
+    }
+    
+
+    .text-lg {
+        font-size: 0.8rem !important; 
+        font-weight: 10;
+    }
+    .text-md {
+        font-size: 0.8rem !important; 
+        font-weight: 200;
+        display: none;
+    }
+    .dropdown{
+        /* top:80px;
+        width: 80%;
+        height: 100vh;
+        font-size: 1rem;
+        background-color: white; */
+        width: 40%;
+        font-size: 1rem;
+        
+    }
 }
 
 
