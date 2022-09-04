@@ -1,2 +1,3 @@
 # Travel-Blog
-![Screenshot from 2022-09-03 15-20-54](https://user-images.githubusercontent.com/45715802/188265482-0c976e96-a534-4674-ad14-9d9038206fd2.png)
+
+![travel-blog](https://user-images.githubusercontent.com/45715802/188305902-af12ebe0-0258-469f-ac36-9f27d02dad6e.gif)
